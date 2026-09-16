@@ -1,0 +1,17 @@
+# Core Shiny for Python stack
+shiny>=0.10.0
+shinywidgets>=0.3.0
+
+# Data and numerics
+pandas>=2.0.0
+numpy>=1.26.0
+scipy>=1.11.0
+
+# Plotting
+plotly>=5.18.0
+# Kaleido 0.2.x works without Chrome; 1.x requires Chrome for PDF but not PNG/SVG.
+# Install whichever fits your environment.
+kaleido>=0.2.1
+
+# Convenience (already a transitive dep of shiny but pinned explicitly)
+htmltools>=0.5.0
